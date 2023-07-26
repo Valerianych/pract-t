@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "Gotham Pro";
+    font-weight: normal;
+    font-style: normal;
+    src: url('./../../font/gothampro.ttf');
+}
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic);
+.h1-advantages{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.h1-advantages p {
+    font-family: Playfair Display;
+    font-size: 52px;
+    font-weight: bold;
+    color: #080425;
+}
+
+  .text-with-square p{
+    font-family: Proxima Nova;
+    font-size: 12px;
+    font-weight: normal;
+    opacity: 60%;
+  }
+
+
+.main-text-about{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}  
+.main-text-about button{
+    font-family: Gotham Pro;
+    font-size: 15px;
+    font-weight: 500;
+    width: 217px;
+    height: 50px;
+    border: none;
+    background-color: #fab91e;
+    color: #815e22;
+}
+.main-text-about button:hover{
+    background-color:#d39500;
+    color:#6d4c13;
+}
+.first-text-about{
+    font-family: Playfair Display;
+    font-style: italic;
+    font-size: 22px;
+    line-height: 36px;
+    width: 900px;
+    margin: auto;
+    color:#080425;
+}
+.second-text-about{ 
+    font-family: Proxima Nova;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #080425;
+    opacity: 60%;
+    width: 720px;
+    margin: 50px auto;
+}

@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "Gotham Pro";
+    font-weight: 500;
+    font-style: normal;
+    src: url('./../../font/gothampro_medium.ttf');
+}
+
+.slide-rent {
+  margin-left: 51px;
+  display: flex;
+}
+
+.right-container-rent {
+  background-color: bisque;
+  width: 540px;
+  height: 313px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+}
+
+.left-str button {
+  width: 586px;
+  height: 391px;
+}
+
+.main-text-rent {
+  font-size: 24px;
+  font-family: "Playfair Display";
+  color: rgb(8, 4, 37);
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 10px; /* Добавлено */
+}
+
+.second-text-rent {
+  font-size: 18px;
+  font-family: "Proxima Nova";
+  color: rgba(8, 4, 37, 0.6);
+  line-height: 1.556;
+  margin-bottom: 20px; /* Добавлено */
+}
+
+.left-str {
+  transform: rotate(0deg) scaleX(-1);
+}
+
+.str-slide-rent button {
+  border: none;
+  width: 44px;
+  height: 44px;
+  background-color: #fab91e;
+  margin-right: 10px; /* Добавлено */
+}
+
+.str-slide-rent button:hover,
+.right-container-rent button:hover {
+  background-color: #d39500;
+}
+
+.right-container-rent button {
+  border: none;
+  background-color: #fab91e;
+  width: 217px;
+  height: 50px;
+  font-family: "Gotham Pro";
+  font-size: 15px;
+  font-weight: 500;
+  color: #815e22;
+  margin-top: 10px; /* Добавлено */
+}

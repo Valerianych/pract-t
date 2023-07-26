@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic);
+.h1-advantages{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.h1-advantages p {
+    font-family: Playfair Display;
+    font-size: 52px;
+    font-weight: bold;
+    color: #080425;
+}
+
+  .text-with-square p{
+    font-family: Proxima Nova;
+    font-size: 12px;
+    font-weight: normal;
+    opacity: 60%;
+  }
+.main-text-advantages{
+    font-family: Playfair Display;
+    font-weight: bold;
+    font-size: 16px;
+    color: #080425;
+    margin-bottom: 15px;
+}
+
+.second-text-advantages{
+    font-family: Proxima Nova;
+    font-size: 14px;
+    font-weight: regular;
+    color: #080425;
+    opacity: 60%;
+}
+
+.img-advantages{
+    margin-bottom: 35px;
+}
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 95px;
+  }
+  
+  .projects div {
+    width: 315px;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .projects div {
+      width: 100%;
+    }
+  }
+  
+  
+
+

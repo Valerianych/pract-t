@@ -1,0 +1,137 @@
+@font-face {
+    font-family: "Gotham Pro";
+    font-weight: normal;
+    font-style: normal;
+    src: url('./../../font/gothampro.ttf');
+}
+@font-face {
+    font-family: "Gotham Pro";
+    font-weight: normal;
+    font-style: italic;
+    src: url('./../../font/gothampro_italic.ttf');
+}
+@font-face {
+    font-family: "Gotham Pro";
+    font-weight: 900;
+    font-style: normal;
+    src: url('./../../font/gothampro_black.ttf');
+}
+@font-face {
+    font-family: "Gotham Pro";
+    font-weight: 900;
+    font-style: italic;
+    src: url('./../../font/gothampro_blackitalic.ttf');
+}
+@font-face {
+    font-family: "Gotham Pro";
+    font-weight: bold;
+    font-style: normal;
+    src: url('./../../font/gothampro_bold.ttf');
+}
+@font-face {
+    font-family: "Gotham Pro";
+    font-weight: bold;
+    font-style: italic;
+    src: url('./../../font/gothampro_bolditalic.ttf');
+}
+@font-face {
+    font-family: "Gotham Pro";
+    font-weight: 300;
+    font-style: normal;
+    src: url('./../../font/gothampro_light.ttf');
+}
+@font-face {
+    font-family: "Gotham Pro";
+    font-weight: 300;
+    font-style: italic;
+    src: url('./../../font/gothampro_lightitalic.ttf');
+}
+@font-face {
+    font-family: "Gotham Pro";
+    font-weight: 500;
+    font-style: normal;
+    src: url('./../../font/gothampro_medium.ttf');
+}
+@font-face {
+    font-family: "Gotham Pro";
+    font-weight: 500;
+    font-style: italic;
+    src: url('./../../font/gothampro_mediumitalic.ttf');
+}
+
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic);
+.slider{
+    height: 960px;
+    position: relative;
+}
+.main-slider{
+    display: flex;
+    justify-content: space-between;
+}
+.center-logo{
+    padding-top: 11px;
+}
+.left-info, .right-info{
+    padding: 50px 125px;
+}
+.left-info p, .right-info p {
+    color: white;
+    opacity: 50%;
+    font-family: Gotham Pro;
+    font-size: 13px;
+}
+.left-info img, .right-info img{
+   
+}
+
+
+
+.bgImg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 960px;
+    width: 100%;
+    z-index: -1;
+}
+
+.second-infoblock{
+    padding-left: 147px;
+    height: 281px;
+    width: 540px;
+}
+.second-infoblock p{
+    color:white;
+}
+.main-text{
+    font-family: Playfair Display;
+    font-size: 52px;
+    font-weight: bold;
+    line-height: 1.217;
+    line-height: 1.217;
+    text-align: left;
+    padding-bottom: 40px;
+}
+.second-text{
+    font-family: Gotham Pro;
+    font-weight: regular;
+    font-size: 18px;
+    line-height: 28px;
+    line-height: 1.556;
+    padding-bottom: 50px;  
+    width: 475px;
+}
+.second-infoblock button{
+    background: #fab91e;
+    border: none;
+    color:#916a21;
+    padding: 23px 25px;
+    font-family: Gotham Pro;
+    font-weight: 500;
+    margin-right:50px ;
+}
+.second-infoblock button:hover{
+    background: #d39500;
+    border: none;
+    color:#7b5610;
+}
